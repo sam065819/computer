@@ -1,0 +1,44 @@
+name: Bug Report
+description: Report a bug here
+title: ":cockroach: "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # READ THIS BEFORE REPORTING A BUG
+        
+        Before reporting a bug, make sure that:
+        - Your bug has common sense
+        - Your bug hasn't already been fixed
+        - Your bug hasn't already been reported, by [searching the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug)
+        - A pull request hasn't been made for the bug
+        
+        Only reply to reports to add additional info.
+        ## One Bug per issue
+
+        Do not include multiple bugs in one issue. If you are making 5 requests, make 5 separate issues
+        
+        ## Required Information
+        - Images and screenshots of the bug
+        - Clear and concise description of the bug
+        - Clear steps on how to reproduce the bug
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      placeholder: Explain the bug in detail
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreement-check
+    attributes:
+      label: Bug Report Agreement
+      options:
+        - label: I read the above and made sure my bug report is possible and allowed
+          required: false
+        - label: "I [searched the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug) and made sure the bug I want to report hasn't already been reported"
+          required: false

@@ -10,10 +10,10 @@ body:
         # READ THIS BEFORE REPORTING A BUG
         
         Before reporting a bug, make sure that:
-        - Your bug has common sense
-        - Your bug hasn't already been fixed
-        - Your bug hasn't already been reported, by [searching the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug)
-        - A pull request hasn't been made for the bug
+          - Your bug has common sense
+          - Your bug hasn't already been fixed
+          - Your bug hasn't already been reported, by [searching the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug)
+          - A pull request hasn't been made for the bug
         
         Only reply to reports to add additional info.
         ## One Bug per issue
@@ -21,9 +21,9 @@ body:
         Do not include multiple bugs in one issue. If you are making 5 requests, make 5 separate issues
         
         ## Required Information
-        - Images and screenshots of the bug
-        - Clear and concise description of the bug
-        - Clear steps on how to reproduce the bug
+          - Images and screenshots of the bug
+          - Clear and concise description of the bug
+          - Clear steps on how to reproduce the bug
 
   - type: textarea
     id: description

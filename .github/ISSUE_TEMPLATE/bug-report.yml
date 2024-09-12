@@ -2,6 +2,7 @@ name: Bug Report
 description: Found any bug? Report it here!
 title: ":cockroach: "
 labels: ["bug"]
+
 body:
   - type: markdown
     attributes:

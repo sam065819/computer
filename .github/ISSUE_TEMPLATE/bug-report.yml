@@ -6,46 +6,46 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-    value: |
-      # READ THIS BEFORE REPORTING A BUG
+      value: |
+        # READ THIS BEFORE REPORTING A BUG
 
-      Before reporting a bug, please make sure that the bug report has common sense and that a similiar one hasn't been reported yet by [searching the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug+).
+        Before reporting a bug, please make sure that the bug report has common sense and that a similiar one hasn't been reported yet by [searching the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug+).
 
-      If a similiar bug already exists, you may only reply if you would like to add any additional information.
+        If a similiar bug already exists, you may only reply if you would like to add any additional information.
 
-      Please do not open a bug report if:
-      - the bug you want to report already has been fixed in the bot
-      - the bug you want to report has already been reported
-      - the bug you want to report has been already noticed and is currently being fixed by the developer
-      - a pull request was opened for it
+        Please do not open a bug report if:
+        - the bug you want to report already has been fixed in the bot
+        - the bug you want to report has already been reported
+        - the bug you want to report has been already noticed and is currently being fixed by the developer
+        - a pull request was opened for it
 
-      ## Required Information
+        ## Required Information
 
-      - A clear and concise description of the bug
+        - A clear and concise description of the bug
 
-      - A clear and concise description of the steps to reproduce the bug
+        - A clear and concise description of the steps to reproduce the bug
 
-      - Images or screenshots of the bug
+        - Images or screenshots of the bug
 
-      Skip formalities like "hello" and do not use AI for your bug reports.
-      ## One bug per issue
+        Skip formalities like "hello" and do not use AI for your bug reports.
+        ## One bug per issue
 
-      Do not include multiple bugs in one issue. If you are making 5 bug reports, make 5 different issues.
+        Do not include multiple bugs in one issue. If you are making 5 bug reports, make 5 different issues.
 
-  - type: textarea
-    id: description
-    attributes:
-      label: Bug Description
-      placeholder: Explain the bug in detail
-    validations:
-      required: true
+    - type: textarea
+      id: description
+      attributes:
+        label: Bug Description
+        placeholder: Explain the bug in detail
+      validations:
+        required: true
 
-  - type: checkboxes
-    id: agreement-check
-    attributes:
-      label: Request Agreement
-      options:
-        - label: "I read the above and agreed to what's written"
-          required: false
-        - label: "I [searched the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug+) and made sure my bug hasn't been reported yet"
-          required: false
+    - type: checkboxes
+      id: agreement-check
+      attributes:
+        label: Request Agreement
+        options:
+          - label: "I read the above and agreed to what's written"
+            required: false
+          - label: "I [searched the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug+) and made sure my bug hasn't been reported yet"
+            required: false

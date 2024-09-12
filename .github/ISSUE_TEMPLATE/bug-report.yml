@@ -6,7 +6,7 @@ labels: ["bug"]
 body:
   - type: markdown
   attributes:
-      value: |
+    value: |
         # READ THIS BEFORE REPORTING A BUG
 
         Before reporting a bug, please make sure that the bug report has common sense and that a similiar one hasn't been reported yet by [searching the existing bug reports](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Abug+).

@@ -5,7 +5,7 @@ labels: ["bug"]
 
 body:
   - type: markdown
-    attributes:
+  attributes:
       value: |
         # READ THIS BEFORE REPORTING A BUG
 

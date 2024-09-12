@@ -1,0 +1,40 @@
+name: Feature Request
+description: Do you have any idea? Suggest it here!
+title: ":bulb: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+    value: |
+      # READ THIS BEFORE OPENING A FEATURE REQUEST
+
+      Before opening a request, please make sure that the request has common sense and that a similiar one hasn't been already opened yet by [searching the existing requests](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Aenhancement+).
+
+      If a similiar request already exists, **do NOT reply** with something like "I want this as well!", instead, react with :+1:. You may only reply if you would like to add any additional information.
+
+      Please do not open a request if the feature you want to request already exists in the bot.
+
+      Skip formalities like "hello" and do not use AI for your requests. Keep it short and concise with only the information necessary.
+      ## One request per issue
+
+      Do not include multiple requests in one issue. If you are making 5 requests, make 5 different issues.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Request Description
+      placeholder: Explain the request in detail
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreement-check
+    attributes:
+      label: Request Agreement
+      options:
+        - label: "I read the above and made sure my request is possible and allowed"
+          required: false
+        - label: "I checked the existing features of the bot and made sure the feature I requested is not already a feature of the bot"
+          required: false
+        - label: "I [searched the existing requests](https://github.com/sam065819/computer/issues?q=is%3Aissue+label%3Aenhancement+) and made sure a similiar request doesn't already exist"
+          required: false
